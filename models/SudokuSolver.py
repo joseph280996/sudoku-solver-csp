@@ -1,5 +1,4 @@
 from typing import Dict, Tuple
-from models.CSP import CSP
 
 from models.Variable import Variable
 
