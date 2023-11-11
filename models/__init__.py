@@ -1,4 +1,3 @@
-from .SudokuSolver import *
-from .Variable import *
-from .CSP import *
-from .SudokuSubgridVisitor import *
+from .sudoku_solver import *
+from .csp import *
+from .variable import *
