@@ -5,19 +5,37 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Evil Sudoku Solver",
+			"name": "Evil Sudoku Solver JSON",
 			"type": "python",
 			"request": "launch",
 			"program": "${workspaceFolder}/main.py",
-			"args": ["-d", "evil_sudoku.json"],
+			"args": ["-d", "evil_sudoku"],
 			"console": "integratedTerminal",
 			"justMyCode": true
 		},
 		{
-			"name": "Normal Sudoku",
+			"name": "Normal Sudoku JSON",
 			"type": "python",
 			"request": "launch",
 			"program": "${workspaceFolder}/main.py",
+			"console": "integratedTerminal",
+			"justMyCode": true
+		},
+		{
+			"name": "Evil Sudoku Solver CSV",
+			"type": "python",
+			"request": "launch",
+			"program": "${workspaceFolder}/main.py",
+			"args": ["-d", "evil_sudoku", "-f", "2"],
+			"console": "integratedTerminal",
+			"justMyCode": true
+		},
+		{
+			"name": "Normal Sudoku CSV",
+			"type": "python",
+			"request": "launch",
+			"program": "${workspaceFolder}/main.py",
+			"args": ["-f", "2"],
 			"console": "integratedTerminal",
 			"justMyCode": true
 		}
