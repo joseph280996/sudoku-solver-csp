@@ -1,13 +1,19 @@
 # Sudoku Solver as Constraint Satisfaction Problem solved using Backtracking and forward checking
+## Prerequisite
+```
+python 3.11+
+```
 
-## Assumptions
-- The python version is 3.11+ since I'll be using match-case for user input decision.
+## Design and Assumptions
+Assumptions:
 - The size of sudoku is 9x9.
 - The sudoku is going to be stored in a JSON file under property data or CSV file (default to be JSON).
 - The sudoku itself is going to be represented using a 2-D array where each element represent each cell in the sudoku.
 - The cell that is not filled is going to be assumed to has a value of 0.
-- The constraints are for each cell, there will be an all-diff constraints on all element in the row and column along with cells in the corresponding 3x3 grids.
 - The output solved sudoku is printed to the screen.
+
+Design:
+- The constraints are for each cell, there will be an all-diff constraints on all element in the row and column along with cells in the corresponding 3x3 grids.
 - The variable is going to be each cell in the sudoku.
 - The algorithm is going to use Minimum Remaining Value for selection.
 - The algorithm is going to use Least Contraining Value for value ordering.
