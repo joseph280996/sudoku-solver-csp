@@ -2,7 +2,7 @@ from typing import Tuple, List, Dict
 
 from .state import State
 from .backtracking import BackTrackingSearch
-from .variable import Variable
+from .Variable import Variable
 
 
 class SudokuSolver:

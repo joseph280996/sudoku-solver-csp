@@ -3,7 +3,7 @@ from typing import Tuple, Dict, List
 
 from .state import State
 
-from .variable import Variable
+from .Variable import Variable
 
 
 class BackTrackingSearch:

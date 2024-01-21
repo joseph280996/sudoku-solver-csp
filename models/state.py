@@ -1,6 +1,6 @@
 from typing import Dict, Tuple, List
 
-from models.variable import Variable
+from .Variable import Variable
 
 
 class State:
